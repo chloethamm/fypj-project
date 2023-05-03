@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "getNextMonth",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/addMonth.sol": "DateAlgorithm"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/addMonth.sol": {
+			"keccak256": "0x2d08cf8a0fe213365b821e8e7a1f6e8d981bc7909206e7fbca96945f9c535463",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ae5b03435d8a2558628f5adebbb62450208b5b29d8b0434d29d99972ffefa3cf",
+				"dweb:/ipfs/QmQ1DtPZpCSXZtYmAFHvZaVZaJ9p8dBLESX1DPVhGvA6yB"
+			]
+		}
+	},
+	"version": 1
+}

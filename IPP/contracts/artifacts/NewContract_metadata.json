@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "firebaseSys",
+				"outputs": [
+					{
+						"internalType": "contract FirebaseSystem",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_dop",
+						"type": "string"
+					}
+				],
+				"name": "retrieveAddressesOneMonthFromToday",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/notificationTest.sol": "NewContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/firebase.sol": {
+			"keccak256": "0x33fd058470d3c1f610317aeb9f1399071ff72b020ab54dea5ab57fccea4ba5cf",
+			"urls": [
+				"bzz-raw://4d0fd492894d28dc74f3f42c6b7268452a0eff5dc3ded23b6329d69f89263bb2",
+				"dweb:/ipfs/Qme1Yk5DFxnQMG96fRiNPrdVX5pgqRHRPSWCr9nKARezsH"
+			]
+		},
+		"contracts/notificationTest.sol": {
+			"keccak256": "0x609c0963e4b534526e9505b5a19765b455e5a40d7f39cf60488e3e33192b2fa7",
+			"urls": [
+				"bzz-raw://ad78149711f660cb1eb19192c4178aa4acff5904b9f0aa9cafe87d8a11df679b",
+				"dweb:/ipfs/QmdgoVsyLX28UDgmmXo2ECkUeKyuYjMcWqHbbjMb1vpbZf"
+			]
+		}
+	},
+	"version": 1
+}

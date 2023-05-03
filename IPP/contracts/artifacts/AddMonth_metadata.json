@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "addOneMonth",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/addMonth.sol": "AddMonth"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/addMonth.sol": {
+			"keccak256": "0x934e5782742bc4c831db6b0ec1839a61a5c9adddc22b85d21833ef7245cbe758",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://90092bd41545661d46be6159b806a7eddbc2e870fa72e844cb383df3dc7d722f",
+				"dweb:/ipfs/QmV9WbGgEDgZcNqrFknW1dGp6nrFQAmuaicZtXvXwsHXfj"
+			]
+		}
+	},
+	"version": 1
+}
